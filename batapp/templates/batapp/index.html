@@ -1,0 +1,10 @@
+{% if latest_album_list %}
+    <p>Here is the list of available albums:</p>
+    <ul>
+    {% for album in latest_album_list %}
+        <li><a href="/batapp/{{ album.id }}">Pike {{ album.pike_number }}: {{ album.album_name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No Albums are available.</p>
+{% endif %}
