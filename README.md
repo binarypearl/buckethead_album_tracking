@@ -7,7 +7,7 @@ So the problem I am trying to solve here is, lets say I want to listen to a slow
 While not completed yet, this project uses python, with Django as a web framework.
 
 
-When I developed Zapper, I created the entire back-end database and code myself by hand.  2 years later, I now realize the power of 
+When I developed Zapper, I created the entire back-end database and code myself by hand.  Two years later, I now realize the power of 
 web frameworks like Django, because now I just specify the models of what I am trying to do.  So now I don't have to create many of 
 the back-end details by hand.  This is really cool.
 
